@@ -1,0 +1,9 @@
+﻿<Window x:Class="PatternLab_WPF.Shell.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:PatternLab_WPF.Shell.Views"
+        Title="MainWindow" Height="1024" Width="1280">
+    <Grid>
+        <local:ShellView></local:ShellView>
+    </Grid>
+</Window>
